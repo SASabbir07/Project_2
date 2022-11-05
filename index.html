@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game Login Page</title>
+
+    <script src="js/index.js"></script>
+
+    <!-- Bootstrap CSS link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <style>
+        .bg-img {
+            background-image: url(img/login.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .bg-login {
+            background-color: rgba(0, 255, 255, 0.315);
+        }
+    </style>
+
+</head>
+
+<body class="bg-img img-fluid">
+    <div class="d-flex justitify-content-center align-items-center">
+        <div class=" d-inline-block m-auto p-5 m-5">
+            <form class="box " action="ogin.html" method="POST">
+
+                <div
+                    class="d-flex justify-content-center align-items-center flex-column border border-2 border-secondary rounded-4 m-5 p-5 gap-3  bg-login">
+                    <h1 class="text-primary">
+                        Login
+                    </h1>
+                    <input class="py-2 pe-5 ps-2 border border-primary rounded" type="text" name=""
+                        placeholder="Enter Username" id="username">
+                    <input class="py-2 pe-5 ps-2 border border-primary rounded" type="password" name=""
+                        placeholder="Enter Password" id="password">
+                    <input class="py-2 px-4 btn btn-outline-primary" type="submit" name="" value="Login"
+                        onclick="validate()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
